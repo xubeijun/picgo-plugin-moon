@@ -1,0 +1,32 @@
+{
+  "name": "picgo-plugin-moon-txom",
+  "version": "1.0.0",
+  "description": "moon-txom玄兔图床",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/xubeijun/picgo-plugin-moon-txom",
+  "scripts": {
+    "publish": "npm publish --registry http://registry.npmjs.org",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "major": "npm version major && git push origin master && git push origin --tags"
+  },
+  "keywords": [
+    "picgo",
+    "picgo-gui-plugin",
+    "picgo-plugin",
+    "picgo-plugin-moon-txom",
+    "moon-txom"
+    "moon"
+  ],
+  "author": "xubeijun",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xubeijun/picgo-plugin-moon-txom.git"
+  },
+  "license": "MIT",
+  "devDependencies": {}
+}
