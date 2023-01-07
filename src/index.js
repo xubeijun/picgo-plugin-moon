@@ -43,7 +43,8 @@ module.exports = (ctx) => {
             })
             return
         }
-        const cookie = userConfig.cookie
+        const api     = userConfig.api
+        const cookie  = userConfig.cookie
         const imgList = ctx.output
         for (let i in imgList) {
             let image = imgList[i].buffer
