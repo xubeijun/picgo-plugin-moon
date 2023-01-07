@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-moon-txom",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "moon-txom玄兔图床",
   "main": "src/index.js",
   "publishConfig": {

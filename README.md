@@ -1,6 +1,6 @@
-# picgo-plugin-moon
+# picgo-plugin-moon-txom
 
-为 [PicGo](https://github.com/Molunerfinn/PicGo) 开发的一款插件，新增了moon玄兔图床。
+为 [PicGo](https://github.com/Molunerfinn/PicGo) 开发的一款插件，新增了moon-txom玄兔图床。
 该上传插件将图片上传到用户的素材管理中心。填写`Cookie`即可，获取方式在下面。
 
 ## 目录
@@ -13,7 +13,7 @@
 
 - 在线安装
 
-  打开 [PicGo](https://github.com/Molunerfinn/PicGo) 详细窗口，选择**插件设置**，搜索**picgo-plugin-moon**安装，然后重启应用即可。
+  打开 [PicGo](https://github.com/Molunerfinn/PicGo) 详细窗口，选择**插件设置**，搜索**picgo-plugin-moon-txom**安装，然后重启应用即可。
 
 - 离线安装
 
@@ -22,7 +22,7 @@
     - Linux: `$XDG_CONFIG_HOME/picgo/` or `~/.config/picgo/`
     - macOS: `~/Library/Application\ Support/picgo/`
 
-  切换到新目录执行 `npm install ./picgo-plugin-moon`，然后重启应用即可。
+  切换到新目录执行 `npm install ./picgo-plugin-moon-txom`，然后重启应用即可。
 
 
 ## 获取API和Cookie
